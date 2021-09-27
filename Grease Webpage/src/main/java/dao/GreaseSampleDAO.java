@@ -16,7 +16,7 @@ import model.GreaseSample;
 public class GreaseSampleDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/greasesamples?allowPublicKeyRetrieval=true&useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "MRGCorp410";
+	private String jdbcPassword = "root";
 	
 	private static final String INSERT_SAMPLES_SQL = "INSERT INTO sample" + "  "
 			+ "(barcodeId, mass, PPM, color, date, time) VALUES " + 
